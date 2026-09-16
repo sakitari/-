@@ -29,4 +29,26 @@ if (userAge >= 18 && allPeoples <= maxPeople) {
     Регистрация не разрешена`)
 }
 
+// Задание 1.3 Глубокая работа с преобразованием типов и шаблонными строками
+let userName = prompt('Введите свое имя:')
+userName = userName.toUpperCase()
+
+let favNum = prompt('Введите любимое число:')
+let numFavNum = Number(favNum)
+
+console.log(
+`Пользователь: ${userName}
+Любимое число: ${favNum}
+Тип числа: ${typeof(favNumStr)}
+Возраст: ${userAge}`
+)
+
+console.log(
+typeof(userName),
+typeof(userAge),
+typeof(favNum),
+typeof(numFavNum)
+)
+
+// Проверка ошибок
 console.log('Код выполнен без ошибок')
