@@ -18,8 +18,10 @@ console.log(
 Осталось дней: ${daysDiff}`)
 
 // Проверка
-if (daysDiff <= 5) {
-    console.log(`Дней до конца срока выполнения задачи: ${daysDiff}! Осталось мало времени.`)
-} else {
+if (daysDiff > 5) {
     console.log('Желаю продуктивного дня :)')
+} else if (daysDiff <=5 && daysDiff >=1) {
+    console.log(`Дней до конца срока выполнения задачи: ${daysDiff}. Поторопитесь, осталось мало времени!`)
+} else {
+    console.log('Задача просрочена.')
 }
