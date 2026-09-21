@@ -39,7 +39,7 @@ let numFavNum = Number(favNum)
 console.log(
 `Пользователь: ${userName}
 Любимое число: ${favNum}
-Тип числа: ${typeof(favNumStr)}
+Тип числа: ${typeof(favNum)}
 Возраст: ${userAge}`
 )
 
